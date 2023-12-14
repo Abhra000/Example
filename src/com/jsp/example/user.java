@@ -4,7 +4,14 @@ class user {
 	private int userid;
 	private String name;
 	private String email;
+	private String phno;
 	
+	public String getPhno() {
+		return phno;
+	}
+	public void setPhno(String phno) {
+		this.phno = phno;
+	}
 	public int getUserid() {
 		return userid;
 	}
